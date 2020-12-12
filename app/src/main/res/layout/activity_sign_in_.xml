@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.SignIn_Activity">
+    <LinearLayout
+        android:background="#474646"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chào bạn,"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhập số điện thoại để tiếp tục"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+                <EditText
+                    android:layout_marginTop="40dp"
+                    android:textColor="#fff"
+                    android:id="@+id/edtSDT_338"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="#353535"
+                    android:ems="10"
+                    android:textColorHint="#fff"
+                    android:hint="Số điện thoại"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp" />
+                <EditText
+                    android:textColor="#fff"
+                    android:id="@+id/edtPassword_338"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="#353535"
+                    android:ems="10"
+                    android:textColorHint="#fff"
+                    android:hint="Mật khẩu"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
+                <Button
+                    android:id="@+id/btn_signin_338"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/btn_gradient"
+                    android:text="Đăng nhập"
+                    android:textColor="#FAF6F6"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                    <TextView
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="40dp"
+                        android:id="@+id/textView3_338"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hoặc đăng nhập với" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="176dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/edtFb_338"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fbbackgroud"
+                        android:drawableLeft="@drawable/facebook"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Facebook"
+                        android:textColor="#F8F5F5" />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/edtGg_338"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ggbackground"
+                        android:drawableLeft="@drawable/google"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="  Google"
+                        android:textColor="#F8F5F5" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
